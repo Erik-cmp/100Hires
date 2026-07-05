@@ -2,7 +2,6 @@
 
 ## Step 1: Verify Installation ✓
 
-- [ ] Navigate to project: `cd c:\100Hires`
 - [ ] Check Node.js installed: `node --version` (should be 18+)
 - [ ] Check pnpm installed: `pnpm --version`
 - [ ] If pnpm not installed: `npm install -g pnpm`
@@ -119,7 +118,7 @@ pnpm start
 ### Increase Search Results
 Edit `src/config/index.ts`:
 ```typescript
-maxResultsPerExpert: 50  // Instead of 20
+maxResultsPerExpert: 50
 ```
 
 ### Add More Keywords
@@ -272,5 +271,3 @@ pnpm dev
 (Make sure you ran `pip install -r python/requirements.txt` before `pnpm dev` if you want live transcript fetching.)
 
 The application will start and begin processing experts from `research/sources.md`.
-
-Happy researching! 🎉

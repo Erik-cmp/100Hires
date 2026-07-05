@@ -499,6 +499,5 @@ ProcessingResult {
 ## References
 
 - YouTube Data API: https://developers.google.com/youtube/v3
-- Supadata API: [Your API docs]
 - TypeScript Best Practices: https://www.typescriptlang.org/docs/handbook/
 - Node.js Streams: https://nodejs.org/api/stream.html
